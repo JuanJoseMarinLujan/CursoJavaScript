@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+}
+* body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b2daf4;
+}
+* body main {
+  height: 900px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #4cc9f7;
+  border-radius: 500px;
+}
+* body main .save {
+  /* border: solid 3px red; */
+  height: 100px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+* body main .save button {
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
+  border: solid 5px #476a7d;
+  border-radius: 30px;
+  background-color: #b2daf4;
+}
+* body main .save button i {
+  font-size: 30px;
+  color: #ee272c;
+}
+* body main .save .storage {
+  /* border: solid 3px red; */
+  height: 45px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+* body main .save .storage .const {
+  height: 40px;
+  width: auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #476a7d;
+}
+* body main .calculadora {
+  border: solid 15px #bc1624;
+  height: 600px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ee272c;
+  border-radius: 50px;
+  padding: 3%;
+}
+* body main .calculadora .pantalla {
+  border: solid 5px black;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 4%;
+  background-color: #b2daf4;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 0px #e9a5a5, -5px -5px 10px 5px #ee7474;
+}
+* body main .calculadora .pantalla .pantallaArriba {
+  height: 48%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body main .calculadora .pantalla .pantallaArriba #valor-memoria {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #bc1624;
+  font-size: 15px;
+}
+* body main .calculadora .pantalla .pantallaArriba #valor-final {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 48px;
+}
+* body main .calculadora .pantalla #valor-nuevo {
+  height: 48%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+}
+* body main .calculadora .teclas {
+  height: 70%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+* body main .calculadora .teclas button {
+  cursor: pointer;
+  margin: 5px;
+  padding: 0;
+  border-radius: 15px;
+  font-size: 45px;
+  text-align: center;
+  border: none;
+  background-color: #b2daf4;
+  box-shadow: 5px 5px 5px -3px #e9a5a5, -5px -5px 10px 0px #ee7474;
+  color: #476a7d;
+}
+* body main .calculadora .teclas button:hover {
+  color: #000000;
+  height: 55px;
+  width: 80px;
+}
+* body main .calculadora .teclas .col-2 {
+  grid-column: span 2;
+}
+* body main .calculadora .teclas .col-2:hover {
+  color: #000000;
+  height: 55px;
+  width: 170px;
+}
+* body main .calculadora .teclas .operador {
+  background-color: #feb44b;
+  color: #e1f8ff;
+}
+* body main .calculadora .teclas .borrar, * body main .calculadora .teclas .borrarTodo {
+  background-color: #bc1624;
+  color: #e1f8ff;
+}/*# sourceMappingURL=style.css.map */
